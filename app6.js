@@ -7,3 +7,22 @@ const post={
 }
 console.log(post.username);
 console.log(post["username"]);
+post.repost=8;
+
+//object of object
+const classInfo={
+    Arshita:{
+        grade:"A",
+        city:"Rajkot"
+    },
+    Jay:{
+        grade:"A++",
+        city:"Rajkot"
+    },
+    Rutvi:{
+        grade:"A+",
+        city:"Palanpur"
+    }
+};
+
+
