@@ -7,3 +7,8 @@ for(let i=1;i<=a;i++){
         console.log("odd num :"+i);
     }
 }
+//table 
+let n=prompt("write your number");
+for(let i=1;i<=10;i++){
+    console.log(n +"x"+i+"="+n*i);
+}
