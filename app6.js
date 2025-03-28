@@ -25,4 +25,19 @@ const classInfo={
     }
 };
 
+//Arrays of objects
+const classInfo1=[
+    {    name:"Arshita",
+        grade:"A",
+        city:"Rajkot"
+    },
+    {   name:"Jay",
+        grade:"A++",
+        city:"Rajkot"
+    },
+    {    name:"Rutvi",
+        grade:"A+",
+        city:"Palanpur"
+    }
+];
 
