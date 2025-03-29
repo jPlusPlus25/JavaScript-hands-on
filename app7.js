@@ -16,3 +16,8 @@ function isadult(){
 
 print1to5();
 isadult();
+function printPoem(){
+    console.log("Twinkle Twinkle, little star");
+    console.log("how I wonder what you are");
+}
+printPoem();
