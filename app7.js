@@ -4,3 +4,15 @@ function print1to5(){
         console.log(i);
     }
 }
+
+function isadult(){
+    let age=13;
+    if(age>=18){
+        console.log("adult");
+    }else{
+        console.log("not adult")
+    }
+}
+
+print1to5();
+isadult();
