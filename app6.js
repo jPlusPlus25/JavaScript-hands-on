@@ -40,4 +40,10 @@ const classInfo1=[
         city:"Palanpur"
     }
 ];
+//function
+function print1to5(){
+    for(let i=1;i<=5;i++){
+        console.log(i);
+    }
+}
 
