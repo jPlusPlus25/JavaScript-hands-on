@@ -21,3 +21,13 @@ function printPoem(){
     console.log("how I wonder what you are");
 }
 printPoem();
+
+function dice(){
+    let random=Math.floor(Math.random()*6)+1;
+    console.log(random);
+}
+dice();
+function printname(name){
+    console.log(name);
+} 
+printname("Arshita");
