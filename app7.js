@@ -54,3 +54,12 @@ function sumofnum(num){
     return sum;
 }
 console.log(sumofnum(5));
+let arr=["Ar","sh","it","a"];
+function concat(arr){
+    let result="";
+    for(let i=0;i<arr.length;i++){
+        result+=arr[i];
+    }
+    return result;
+}
+//console.log(concat(arr));
