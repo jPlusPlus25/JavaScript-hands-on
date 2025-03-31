@@ -35,3 +35,7 @@ function printInfo(name,age){
     console.log(name,age);
 }
 printInfo("Arshita",25);
+function averagenum(a,b,c){
+    console.log(a+b+c/3);
+}
+averagenum(5,6,7);
