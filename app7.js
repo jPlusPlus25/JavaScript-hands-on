@@ -31,3 +31,7 @@ function printname(name){
     console.log(name);
 } 
 printname("Arshita");
+function printInfo(name,age){
+    console.log(name,age);
+}
+printInfo("Arshita",25);
