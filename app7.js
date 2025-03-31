@@ -44,3 +44,13 @@ function multiplicationtable(num){
         console.log(num +" X "+i+" = "+num*i);
     }
 }multiplicationtable(5);
+function sumofnum(num){
+    
+    let sum=0;
+    for(let i=1;i<=num;i++){
+        sum+=i;
+    }
+
+    return sum;
+}
+console.log(sumofnum(5));
