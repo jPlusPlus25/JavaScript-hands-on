@@ -39,3 +39,8 @@ function averagenum(a,b,c){
     console.log((a+b+c)/3);
 }
 averagenum(5,6,7);
+function multiplicationtable(num){
+    for(let i=1;i<=10;i++){
+        console.log(num +" X "+i+" = "+num*i);
+    }
+}multiplicationtable(5);
