@@ -63,3 +63,14 @@ function concat(arr){
     return result;
 }
 //console.log(concat(arr));
+function func(a,b){
+    return a+b;
+}function multipleGreet(func,n){
+    for(let i=1;i<=navigator;i++){
+        func();
+    }
+}
+let greet=function(){
+    console.log("Hello");
+}
+multipleGreet(greet,2);
