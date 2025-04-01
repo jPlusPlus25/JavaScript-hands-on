@@ -103,4 +103,17 @@ function oddOrEven(request){
         return a*b;
     }
 };
-
+//try & catch
+console.log("hello");
+console.log("hello");
+console.log("hello");
+console.log("hello");
+try{
+    console.log(a);
+}catch{
+    console.log("caught an error.. a is not define");
+}console.log("hello");
+console.log("hello");
+const sum=(a,b)=>{
+    console.log(a+b);
+};
