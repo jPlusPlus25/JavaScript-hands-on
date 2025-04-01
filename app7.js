@@ -126,5 +126,5 @@ const pow=(a,b)=>{
 const hello =()=>{
     console.log("hello jay");
 };
-const cube1=(a,b)=> (a*b);
+const cube1=(a,b)=> a*b;
        
