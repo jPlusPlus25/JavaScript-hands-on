@@ -63,10 +63,9 @@ function concat(arr){
     return result;
 }
 //console.log(concat(arr));
-function func(a,b){
-    return a+b;
-}function multipleGreet(func,n){
-    for(let i=1;i<=navigator;i++){
+
+function multipleGreet(func,n){//higher order function
+    for(let i=1;i<=n;i++){
         func();
     }
 }
