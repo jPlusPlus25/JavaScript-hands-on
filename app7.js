@@ -127,4 +127,9 @@ const hello =()=>{
     console.log("hello jay");
 };
 const cube1=(a,b)=> a*b;
+console.log("hii jay");
+setTimeout(()=>{
+    console.log("Arshita")
+},4000);
+console.log("WelCome");
        
