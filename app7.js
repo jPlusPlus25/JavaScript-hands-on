@@ -128,15 +128,25 @@ const hello =()=>{
 };
 const cube1=(a,b)=> a*b;
 console.log("hii jay");
-setTimeout(()=>{
-    console.log("Arshita")
-},4000);
-console.log("WelCome");
+//setTimeout(()=>{
+//    console.log("Arshita")
+//},4000);
+//console.log("WelCome");
 let id1=setInterval(()=>{
     console.log("Arshita")
 },4000);
+clearInterval(id);
 let id=setInterval(()=>{
     console.log("Arshita")
 },4000);
 console.log(id);
+clearInterval(id1);
+const student1={
+    name:"Jay",
+    marks:91,
+    prop:this,//global scope
+    getName:function(){
+        return this.name;
+    },
+};
        
