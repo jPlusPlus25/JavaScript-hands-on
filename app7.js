@@ -123,3 +123,7 @@ const cube=(n)=>{
 const pow=(a,b)=>{
     return a**b;
 }
+const hello =()=>{
+    console.log("hello jay");
+};
+
