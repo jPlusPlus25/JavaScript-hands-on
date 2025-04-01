@@ -132,7 +132,11 @@ setTimeout(()=>{
     console.log("Arshita")
 },4000);
 console.log("WelCome");
-setInterval(()=>{
+let id1=setInterval(()=>{
     console.log("Arshita")
 },4000);
+let id=setInterval(()=>{
+    console.log("Arshita")
+},4000);
+console.log(id);
        
