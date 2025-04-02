@@ -6,6 +6,7 @@ const student1={
         return this.name;
     },
 };
+//foreach loop
 let arr=[1,2,3,4,5];
 function print(el){
     console.log(el);
@@ -31,4 +32,13 @@ arr1.forEach((student)=>{
 });
 arr1.forEach((student)=>{
     console.log(student.marks)
+});
+let arr2=[1,2,3,4,5];
+function print(el){
+    console.log(el*2);
+}
+arr2.forEach(print);
+//or
+arr2.forEach(function(el){
+    console.log(el);
 });
