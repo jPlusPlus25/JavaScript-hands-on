@@ -29,4 +29,27 @@ let smallnum =nums.filter((el)=>{return el<5});
 let num1=[1,2,3,4];
 let finalval=num1.reduce((res,el)=>res+el);
 console.log(finalval);
+let Array=[1,2,4,5,7,8,45];
+let max=Array.reduce((max,el)=>{
+    if(max<el){
+        return el;
+    }else{
+        return max;
+    }
+});
+console.log(max);
+//check if all number in our array are multiples of 10 or not
+let num2=[10,20,30,50,80];
+let ans=num2.every((el)=>el%10==0);
+console.log(ans);
+//create a function to find the min number in an array
+let array1=[2,4,5,6,1,9,5];
+let min=array1.reduce((min,el)=>{
+    if(min>el){
+        return el;
+    }else{
+        return min;
+    }
+});
+console.log(min);
 
