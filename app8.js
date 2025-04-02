@@ -47,3 +47,17 @@ let num=[1,2,3,4];
 let double =num.map(function(el){
     return el*el;
 });
+let students=[
+    {name:"Arshita",
+      marks:92,  
+    },
+    {name:"Shita",
+     marks:96, 
+    },
+    {name:"Hrshita",
+     marks:92.5, 
+    },
+];
+let gpa=students.map((el)=>{
+    return marks/10;
+});
