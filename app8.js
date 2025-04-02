@@ -12,3 +12,17 @@ function print(el){
 }
 arr.forEach(print);
 //or
+arr.forEach(function(el){
+    console.log(el);
+});
+let arr1=[
+    {name:"Arshita",
+      marks:92,  
+    },
+    {name:"Shita",
+     marks:96, 
+    },
+    {name:"Hrshita",
+     marks:92.5, 
+    },
+];
