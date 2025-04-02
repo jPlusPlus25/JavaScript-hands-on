@@ -28,5 +28,5 @@ let smallnum =nums.filter((el)=>{return el<5});
 //reduce method
 let num1=[1,2,3,4];
 let finalval=num1.reduce((res,el)=>res+el);
-console.log(finalval)
+console.log(finalval);
 
