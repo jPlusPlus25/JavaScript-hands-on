@@ -26,3 +26,6 @@ let arr1=[
      marks:92.5, 
     },
 ];
+arr1.forEach((student)=>{
+    console.log(student.name)
+});
