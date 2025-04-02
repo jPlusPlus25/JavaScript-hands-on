@@ -42,3 +42,8 @@ arr2.forEach(print);
 arr2.forEach(function(el){
     console.log(el);
 });
+//map function
+let num=[1,2,3,4];
+let double =num.map(function(el){
+    return el*el;
+});
