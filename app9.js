@@ -25,4 +25,8 @@ let smallnum =nums.filter((el)=>{return el<5});
 //every method
 [2,4,5].every((el)=>el%2==0);//false
 [2,4,6].every((el)=>el%2==0);//true
+//reduce method
+let num1=[1,2,3,4];
+let finalval=num1.reduce((res,el)=>res+el);
+console.log(finalval)
 
