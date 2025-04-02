@@ -22,3 +22,7 @@ let nums =[2,4,1,5,6,2,,8,9];
 let even =nums.filter((el)=>{return el%2==0});
 let odd =nums.filter((el)=>{return el%2!=0});
 let smallnum =nums.filter((el)=>{return el<5});
+//every method
+[2,4,5].every((el)=>el%2==0);//false
+[2,4,6].every((el)=>el%2==0);//true
+
