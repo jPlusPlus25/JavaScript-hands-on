@@ -26,5 +26,15 @@ function sum(...args){
 //destructuring method
 let names=["Arshita","Jay","Rutvi","Rahi","Monika"];
 let [winner,runnerup,secondRunnerup]=names;
-
+let[winner1,runnerup1,...others]=names;
+//object destructuring method
+const student={
+    name:"arshita",
+    age:14,
+    class:9,
+    subjects:["hindi","english","math","science"],
+    username:"arshita765",
+    password:"abcd726"
+};
+let {username,password}=student;
 
