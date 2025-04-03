@@ -52,4 +52,12 @@ let min=array1.reduce((min,el)=>{
     }
 });
 console.log(min);
+//default value:
+function sum(a,b=2){
+    return a+b;
+};
+let arr=[1,3,2,6,5,8,5,4];
+Math.min(...arr);//1
+console.log(...arr);//1 3 2 6 5 8 5 4
+console.log(..."Arshita");
 
