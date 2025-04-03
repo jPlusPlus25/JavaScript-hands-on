@@ -60,4 +60,6 @@ let arr=[1,3,2,6,5,8,5,4];
 Math.min(...arr);//1
 console.log(...arr);//1 3 2 6 5 8 5 4
 console.log(..."Arshita");
+arr.push(10);//10
+arr.max(...arr);//10
 
