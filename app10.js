@@ -36,5 +36,9 @@ const student={
     username:"arshita765",
     password:"abcd726"
 };
-let {username:user,password}=student;
+let btn = document.querySelector("button");
+console.dir(btn);
+btn.onclick=function(){
+    alert("button was clicked");
+}
 
