@@ -36,5 +36,5 @@ const student={
     username:"arshita765",
     password:"abcd726"
 };
-let {username,password}=student;
+let {username:user,password}=student;
 
