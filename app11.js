@@ -1,33 +1,46 @@
-//let btn=document.querySelector("button");
+// Select the button element
+let btn = document.querySelector("button");
 
-//btn.addEventListener("click",function(){
-  //  let h3=document.querySelector("h3");
-    //let randomColor=getRandomColor();
-    //h3.innerText=randomColor;
+// Event listener for button click
+btn.addEventListener("click", function () {
+    let h3 = document.querySelector("h3"); // Select h3 element
+    let randomColor = getRandomColor(); // Generate a random color
 
-    //let div=document.querySelector("div");
-    //div.style.backgroundColor=randomColor;
+    h3.innerText = randomColor; // Update h3 text with color
 
-    //console.log("color updated");
-//});
-//function getRandomColor(){
-   // let red=Math.floor(Math.random()*255);
-    //let green=Math.floor(Math.random()*255);
-    //let blue=Math.floor(Math.random()*255);
+    let div = document.querySelector(".box"); // Select the div
+    div.style.backgroundColor = randomColor; // Change div background color
 
-    //let color='rgb(${red}, ${green}, ${blue})';
-    //return color;
-    //let btn=document.querySelector("button");
-    //btn.addEventListener("dblclick",function(event){
-    //    console.log(event)
-    //    console.log("button clicked");
-    //});
-   // let box=document.querySelector(".box");
-    //box.addEventListener("mouseenter",function(){
-     //   console.log("mouse inside box")
-    //});
-//}
-let inp=document.querySelector("input");
-inp.addEventListener("ketdown",function(){
-    console.log("key was pressed");
+    console.log("Color updated to:", randomColor);
+});
+
+// Function to generate a random RGB color
+function getRandomColor() {
+    let red = Math.floor(Math.random() * 255);
+    let green = Math.floor(Math.random() * 255);
+    let blue = Math.floor(Math.random() * 255);
+
+    return `rgb(${red}, ${green}, ${blue})`; // Corrected template literal syntax
+}
+
+// Event listener for double-click on button
+btn.addEventListener("dblclick", function (event) {
+    console.log(event);
+    console.log("Button double-clicked");
+});
+
+// Select the input element
+let inp = document.querySelector("input");
+
+// Event listener for keydown in input field
+inp.addEventListener("keydown", function () {
+    console.log("A key was pressed");
+});
+
+// Select the box div
+let box = document.querySelector(".box");
+
+// Event listener for mouse entering the box div
+box.addEventListener("mouseenter", function () {
+    console.log("Mouse entered the box");
 });
