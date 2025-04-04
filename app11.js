@@ -17,12 +17,13 @@
 
     //let color='rgb(${red}, ${green}, ${blue})';
     //return color;
-    let p=document.querySelector("p");
-    p.addEventListener("click",function(){
-        console.log("parah was clicked");
+    let btn=document.querySelector("button");
+    btn.addEventListener("dblclick",function(event){
+        console.log(event)
+        console.log("button clicked");
     });
-    let box=document.querySelector(".box");
-    box.addEventListener("mouseenter",function(){
-        console.log("mouse inside box")
-    });
+   // let box=document.querySelector(".box");
+    //box.addEventListener("mouseenter",function(){
+     //   console.log("mouse inside box")
+    //});
 //}
