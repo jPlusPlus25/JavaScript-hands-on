@@ -17,13 +17,17 @@
 
     //let color='rgb(${red}, ${green}, ${blue})';
     //return color;
-    let btn=document.querySelector("button");
-    btn.addEventListener("dblclick",function(event){
-        console.log(event)
-        console.log("button clicked");
-    });
+    //let btn=document.querySelector("button");
+    //btn.addEventListener("dblclick",function(event){
+    //    console.log(event)
+    //    console.log("button clicked");
+    //});
    // let box=document.querySelector(".box");
     //box.addEventListener("mouseenter",function(){
      //   console.log("mouse inside box")
     //});
 //}
+let inp=document.querySelector("input");
+inp.addEventListener("ketdown",function(){
+    console.log("key was pressed");
+});
