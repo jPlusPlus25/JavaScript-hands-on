@@ -7,3 +7,6 @@ box1.addEventListener('click',()=>{
 box1.addEventListener('click',()=>{
     console.log('click by event 2');
 });
+box1.addEventListener('click',(e)=>{ //e or event
+    console.log('event object',e);//event object ni badhi information mle
+});
