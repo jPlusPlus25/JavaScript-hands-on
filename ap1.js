@@ -1,3 +1,4 @@
+//event handler
 function myFunction(){
     console.log("i was onclicked");
 }
