@@ -4,11 +4,13 @@ let lis=document.querySelectorAll("li");
 div.addEventListener("click",function(){
     console.log("div was clicked");
 })
-ul.addEventListener("click",function(){
+ul.addEventListener("click",function(event){
+    event.stopPropagation();
     console.log(" ul was click");
 })
 for(li of lis){
-    li.addEventListener("click" ,function(){
+    li.addEventListener("click" ,function(event){
+        event.stopPropagation();
         console.log("div was clicked")
     })
 }
