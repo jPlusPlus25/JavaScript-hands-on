@@ -56,10 +56,39 @@ function savetoDb(data){
     }
     });
 }
-//then() and catch() methods
-let request = savetoDb("Arshita").then(()=>{
+                //then() and catch() methods
+/*savetoDb("Arshita").then(()=>{
     console.log("promise was resolved");
 })
 .catch(()=>{
     console.log("promise was rejected");
-});
+});*/
+                //promise chainning
+/*savetoDb("Arshita")
+    .then(()=>{
+    console.log("data 1 saved:promise was resolved");
+    return savetoDb("hello world")
+})
+    .then(()=>{
+        console.log("data 2 saved:promise was resolved");
+    })
+
+.catch(()=>{
+    console.log("promise was rejected");
+});*/
+                //result & errors in promises
+ savetoDb("Arshita")
+                .then((result)=>{
+                console.log("data 1 saved:promise was resolved");
+                console.log(result);
+                return savetoDb("hello world")
+            })
+                .then((result)=>{
+                    console.log("data 2 saved:promise was resolved");
+                    console.log(result);
+                })
+            
+            .catch((errors)=>{
+                console.log("promise was rejected");
+                console.log(errors);
+            });             
