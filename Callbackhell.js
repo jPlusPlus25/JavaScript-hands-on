@@ -77,18 +77,23 @@ function savetoDb(data){
     console.log("promise was rejected");
 });*/
                 //result & errors in promises
- savetoDb("Arshita")
+ /*savetoDb("Arshita")
                 .then((result)=>{
                 console.log("data 1 saved:promise was resolved");
-                console.log(result);
+                console.log("result of promise:",result);
                 return savetoDb("hello world")
             })
                 .then((result)=>{
                     console.log("data 2 saved:promise was resolved");
-                    console.log(result);
+                    console.log("result of promise:",result);
                 })
             
             .catch((errors)=>{
                 console.log("promise was rejected");
-                console.log(errors);
-            });             
+                console.log("errors of promise:",errors);
+            }); */
+            
+//async function
+async function greet(){
+    return "hello!";
+}            
