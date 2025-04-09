@@ -1,9 +1,13 @@
 h1=document.querySelector("h1");
-function changeColor(color,delay){
+function changeColor(color,delay,nextColorChange){//nextColorChange ae callback che
     setTimeout(()=>{
-        h1.style.color="color";
+        h1.style.color=color;
+        if(nextColorChange)nextColorChange();
     },delay);
 }
-changeColor("red",1000);
-changeColor("orange",2000);
-changeColor("blue",3000);
+changeColor("red",1000,()=>{
+    changeColor("orange",1000,()=>{
+        changeColor("orange",1000);
+    });
+});
+//callback ki nesting ko callbackhell kehte he
