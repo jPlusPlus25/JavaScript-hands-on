@@ -45,6 +45,7 @@ savetoDb(
         console.log("failure:weak connection. data not saved");
     }
 );*/
+//refacoring with promises
 function savetoDb(data){
     return new Promise((success,failure)=>{
     let internetSpeed = Math.floor(Math.random()*10)+1;
@@ -55,3 +56,10 @@ function savetoDb(data){
     }
     });
 }
+//then() and catch() methods
+let request = savetoDb("Arshita").then(()=>{
+    console.log("promise was resolved");
+})
+.catch(()=>{
+    console.log("promise was rejected");
+});
