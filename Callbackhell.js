@@ -121,5 +121,7 @@ function getNum(){
    });
 }
 async function demo(){
+   await getNum();
+    await getNum();
     getNum();
 }
