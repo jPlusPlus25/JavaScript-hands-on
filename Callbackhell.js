@@ -32,6 +32,14 @@ savetoDb(
     "SlTIET",
     ()=>{
         console.log("succsess:your data was saved");
+        savetoDb("Arshita" ,
+            ()=>{
+                console.log("succsess2: hello");
+            },
+                ()=>{
+                    console.log("failure2:weak connection");
+                }
+        );
     },
     ()=>{
         console.log("failure:weak connection. data not saved");
