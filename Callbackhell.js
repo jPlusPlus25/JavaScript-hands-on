@@ -20,7 +20,7 @@ changeColor("red",1000,()=>{
     }
 }*/
 
-function savetoDb(data,succsess,failure){
+/*function savetoDb(data,succsess,failure){
     let internetSpeed = Math.floor(Math.random()*10)+1;
     if(internetSpeed>4){
         succsess();
@@ -44,4 +44,14 @@ savetoDb(
     ()=>{
         console.log("failure:weak connection. data not saved");
     }
-);
+);*/
+function savetoDb(data){
+    return new Promise((success,failure)=>{
+    let internetSpeed = Math.floor(Math.random()*10)+1;
+    if(internetSpeed>4){
+        success("success: data was save");
+    }else{
+        failure(" failure : weak connection");
+    }
+    });
+}
